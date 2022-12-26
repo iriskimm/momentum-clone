@@ -1,2 +1,2 @@
-# react-momentum-clone
-A learning project to create a clone of a chrome extension "Momentum". 
+# momentum-clone
+The purpose of this clone project of a chrome extension "Momentum" is to practice my VanillaJS skills
