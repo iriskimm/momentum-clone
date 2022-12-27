@@ -7,4 +7,4 @@ const quotes = data.filter(quote => quote.Quote.length < 100 && quote.Author.len
 const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
 quote.innerText = todaysQuote.Quote;
-author.innerText = "\n" + todaysQuote.Author;
+author.innerText = `\n - ${todaysQuote.Author} -`;

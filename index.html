@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Momentum App</title>
 </head>
@@ -11,14 +12,17 @@
     <h2 id="clock">00:00:00</h2>
     <form class="hidden" id="login-form">
         <input required maxlength="15" type="text" placeholder="What is your name?">
-        <button>Enter</button>
     </form>
     <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
+    <form class="hidden" id="todo-form">
         <input required type="text" placeholder="Write a To Do and Press Enter">
     </form>
     <ul id="todo-list"></ul>
     <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
         <span></span>
         <span></span>
     </div>

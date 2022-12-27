@@ -1,9 +1,42 @@
+body {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
+}
+
 .hidden {
     display: none;
 }
 
+input {
+    width: 40%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    border-bottom: 3px solid floralwhite;
+    transition: all, 0.4s;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 70%; 
+}
+
+#todo-list li {
+    margin-top: 10px;
+    margin-left: 25%;
+    text-align: left;
+}
+
+#todo-list span {
+    size: 200%;
+}
+
 img {
-    position:absolute;
+    position:fixed;
     width:100%;
     height:100%;
     left: 0px;
@@ -14,10 +47,34 @@ img {
     opacity:80%;
 }
 
-button {
-    margin-left: 5px;
+#clock {
+    color: white;
+    font-size: 800%;
+    margin: 0 0 0 0;
 }
 
-#todo-list {
-    background-color: rgba(255, 255, 255, 0.538);
+#greeting {
+    color: white;
+    font-size: 200%;
+}
+
+#quote {
+    position: fixed;
+    bottom: 10px;
+    left: 25%;
+    right: 25%;
+}
+
+#weather {
+    font-size: 120%;
+    position: fixed;
+    top: 10px;
+    right: 15px;
+    opacity: 80%;
+}
+
+button {
+    margin-left: 8px;
+    background-color: transparent;
+    border-radius: 20%;
 }
