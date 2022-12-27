@@ -1,4 +1,4 @@
-import data from '../quotes.json' assert { type: 'json' };
+import data from '../assets/quotes.json' assert { type: 'json' };
 
 const quote = document.querySelector("#quote span:first-child");
 const author = document.querySelector("#quote span:last-child");
