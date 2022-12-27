@@ -8,6 +8,12 @@ body {
     display: none;
 }
 
+div #todo {
+    overflow: hidden;
+    display: inline-block;
+    width: 100%;
+}
+
 input {
     width: 40%;
     margin-top: 50px;
@@ -27,8 +33,14 @@ input {
 
 #todo-list li {
     margin-top: 10px;
-    margin-left: 25%;
+    margin-left: 30%;
     text-align: left;
+    font-size: 150%;
+}
+
+#todo-list button {
+    float: right;
+    margin-right: 45%;
 }
 
 #todo-list span {
